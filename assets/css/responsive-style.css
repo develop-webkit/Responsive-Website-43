@@ -1,0 +1,135 @@
+.visible-xs {
+	display: none !important;
+}
+
+.hidden-xs {
+	display: block !important;
+}
+
+@media(max-width: 767px) {
+	.visible-xs {
+		display: block !important;
+	}
+
+	.hidden-xs {
+		display: none !important;
+	}
+
+	br {
+		display: none;
+	}
+}
+
+@media(max-width: 1600px) {
+
+	body,
+	html {
+		font-size: 15px;
+	}
+}
+
+@media(max-width: 1200px) {
+
+	body,
+	html {
+		font-size: 14px;
+	}
+}
+
+@media(max-width: 992px) {
+
+	body,
+	html {
+		font-size: 13px;
+	}
+}
+
+@media(max-width: 767px) {
+	.logo1 {
+		width: 25rem;
+	}
+
+	.l-btn {
+		padding: 0.25rem 3rem;
+	}
+
+	.form-label-1x span {
+		font-size: 1.125rem;
+		width: calc(100% - 2rem);
+	}
+
+	.form-label-1x input {
+		width: 2rem;
+		height: 2rem;
+	}
+
+	.required-inner .l-btn {
+		padding: 0.5rem 3rem;
+	}
+
+	.answer-text {
+		font-size: 1rem;
+	}
+
+	.quiz-form-content h1 {
+		font-size: 5rem;
+	}
+
+	.quiz-form-content h2 {
+		font-size: 1.75rem;
+		line-height: 1.125;
+	}
+
+	.quiz-checkbox label span {
+		font-size: 1.75rem;
+	}
+
+	.quiz-checkbox {
+		padding-left: 4rem;
+		margin-top: 0;
+	}
+
+	.faceoff-text {
+		font-size: 1.75rem;
+	}
+
+	.qr-code p {
+		font-size: 1.75rem;
+	}
+
+	.reg-screen-form {
+		margin-top: 2rem;
+	}
+
+	.qr-code {
+		margin: 2rem 0;
+	}
+
+	.heading1 {
+		margin-top: 2rem;
+	}
+
+	.required-inner {
+		margin-top: 2rem;
+		margin-bottom: 2rem;
+	}
+
+	.quiz-form-content {
+		gap: 1rem;
+	}
+}
+
+@media(max-width: 570px) {
+	.logo1 {
+		width: 20rem;
+	}
+
+	.quiz-checkbox {
+		padding-left: 0rem;
+		margin-top: 1rem;
+	}
+
+	.quiz-checkbox label span {
+		font-size: 1.5rem;
+	}
+}
